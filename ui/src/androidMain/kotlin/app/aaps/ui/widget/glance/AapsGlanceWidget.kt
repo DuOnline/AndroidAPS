@@ -131,7 +131,7 @@ private fun BgPanel(state: WidgetRenderState, modifier: GlanceModifier) {
                     text = state.bgText,
                     style = TextStyle(
                         color = ColorProvider(bgColor),
-                        fontSize = 44.sp,
+                        fontSize = 22.sp,
                         fontWeight = FontWeight.Bold,
                         textDecoration = if (state.strikeThrough) TextDecoration.LineThrough else TextDecoration.None
                     ),
